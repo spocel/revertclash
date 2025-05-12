@@ -1,6 +1,6 @@
 FROM node:lts-alpine
 
-RUN apk add git
+RUN apk add --no-cache git
 
 WORKDIR /app
 
